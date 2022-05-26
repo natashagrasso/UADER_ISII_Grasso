@@ -12,7 +12,7 @@ else:
 #for loop for checking each number
 
 eb1=TextBlob("Find primes up to what number?: ")
-print(eb1.translate(from_lang ='in',to='es'),int(max)) #Traductor
+print(eb1.translate(from_lang ='in',to='it'),int(max)) #Traductor
 primeList = []
 
 for x in range(2, max + 1):
@@ -31,7 +31,7 @@ print(primeList)
 # prime number calculator: find the first n primes
 
 eb2=TextBlob("Find how many primes ?: ")
-print(eb2.translate(from_lang ='in',to="es"), int(count)) #Traductor 
+print(eb2.translate(from_lang ='in',to="it"), int(count)) #Traductor 
 primeList = []
 x = 2
 while len(primeList) < count:
